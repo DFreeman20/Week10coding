@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"
+   
+</head>
+<body>
+
+    <table class="table table-light">
+        <thead id="tHead">
+            <th>#</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Favorite NFL Team</th>
+        </thead>
+        <tbody id="tBody">
+            <tr>
+              <!--this is a hard coded example to show what to put in the form-->  
+                <td>0</td>
+                <td>Derek</td>
+                <td>Freeman</td>
+                <td>Packers</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <div>
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName">
+        </div>
+        <div>
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName">
+        </div>
+        <div>
+            <label for="favoriteTeam" class="form-label">Favorite NFL Team</label>
+            <input type="text" class="form-control" id="favoriteTeam">
+        </div>
+        <button type="sumbit" class="btn btn-primary" id="formSubmit">Enter</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
